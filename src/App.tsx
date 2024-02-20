@@ -127,7 +127,7 @@ function App() {
       <GlobalStyles styles={{ html: { WebkitFontSmoothing: "auto" } }} />
       <RefineSnackbarProvider>
         <Refine
-          dataProvider={dataProvider("https://boma-server.onrender.com/")}
+          dataProvider={dataProvider("https://boma-server.onrender.com/api/v1")}
           notificationProvider={notificationProvider}
           ReadyPage={ReadyPage}
           catchAll={<ErrorComponent />}
