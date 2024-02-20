@@ -33,7 +33,7 @@ if (isError) return <div>Error found</div>
             id={agent._id}
             name={agent.name}
             email={agent.email}
-            avatar={agent.avator}
+            avatar={agent.avatar}
             noOfProperties={agent.allProperties.length}
           />
         ))}
