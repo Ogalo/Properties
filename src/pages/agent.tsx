@@ -1,12 +1,14 @@
 import { useList } from '@pankod/refine-core';
 import { Box, Typography } from '@pankod/refine-mui';
 
+
+
 import { AgentCard } from 'components';
 
 const Agent = () => {
 
-  const { data, isLoading, isError } = useList({
-    resource: 'api/v1/users',
+    const { data, isLoading, isError } = useList({
+    resource: 'users',
   });
 
   const allAgents = data?.data ?? [];
