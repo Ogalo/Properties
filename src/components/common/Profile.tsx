@@ -132,7 +132,7 @@ const Profile = ({ type, name, avatar, email, properties }: ProfileProps) => (
                                                 color="#11142D"
                                                 noWrap
                                             >
-                                                +0123 456 7890
+                                                +254799820376
                                             </Typography>
                                         </Box>
                                     </Stack>
