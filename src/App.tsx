@@ -56,7 +56,7 @@ function App() {
 
       if (profileObj) {
         const response = await fetch(
-            "https://boma-server.onrender.com/api/v1/user",
+            "https://boma-server.onrender.com/api/v1/users",
             {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
